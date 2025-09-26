@@ -11,94 +11,58 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Student first",
+			description: "We solve real student problems—because we've lived them. Every feature starts with: 'Would this actually help me learn better under pressure?'"
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Academic excellence",
+			description: "We believe tools should match student potential, not hold it back. Good grades aren't magic—they're systems. We build those systems."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Innovation through youth",
+			description: "StudyBuddy started with one frustrated 16-year-old who saw things differently. Youth isn't a limitation—it's our edge."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Transforming education with AI"
+	subtitle="Founded by a 16-year-old genius to solve real student problems"
+	imageSrc="/generated/image-a-professional-business-headshot-of-a-yo.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"It started with a brilliant 16-year-old high school student named Osman who was drowning in dense lecture content. While his peers struggled with the same problem, Osman decided to build the solution.",
+		"What began as solving his own learning challenges quickly evolved into something bigger. Osman realized that millions of college students at competitive universities faced the same information overload and ineffective study methods.",
+		"Rather than accept the status quo of passive study materials, we're transforming them into active learning experiences. Our AI converts notes and recordings into interactive slides, then adapts based on where students struggle most.",
+		"Founded by a genius who understands the problem firsthand, we're not just another ed-tech company. We're students building for students, creating the learning tools we wished existed when we needed them most."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Meet our founder"
+	subtitle="Building the future of active learning from a student's perspective"
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Osman",
+			position: "Founder & CEO, Age 16",
+			bio: "A brilliant high school student who founded the company to solve his own learning challenges. At just 16, Osman is transforming how students engage with dense lecture content and creating the AI-powered study tools he wished existed.",
+			image: "/generated/image-a-professional-business-headshot-of-a-yo.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Join the students who study 10x faster"
+	subtitle="Start for free today"
+	description="We're already powering tens of thousands of sessions at top universities. Don't waste another night rewatching a 90-minute lecture you only half-remember."
+	imageSrc="/generated/image-a-confident-college-student-with-a-subtl.webp"
 />
